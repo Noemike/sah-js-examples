@@ -1,3 +1,17 @@
+// 4th part
+
+$('p').css('background', 'purple');
+$('p').text('<strong>hello world</strong>');
+$('p').html('<strong>hello world</strong>');
+
+$('p').append('<strong>another</strong>');
+// $('div').remove();
+
+$('button').click(() => {
+    $('.first').toggleClass ('hidden');
+})
+
+// From 1st part to 3rd
 console.log("This is JavaScript");
 
 let colors=["orange, blue, green, red"]
@@ -38,8 +52,9 @@ let myFunction = x => {console.log(x);
 }
 
 let greeter = name =>  {
-console.log('Hello, ${name}');
-if (name==="Norbi") {console.log("he is an adult")}
+    console.log('Hello, ${name}');
+    if (name==="Norbi") 
+    {console.log("he is an adult")}
 }
 
 greeter("Levi");
